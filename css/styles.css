@@ -48,7 +48,7 @@ Colors:
 /******************************/
 :root {
 	--button-bullet-color: #0f6691;
-	
+	--color-background: #153e52
 }
 
 body,
@@ -1251,7 +1251,7 @@ input[type='checkbox'] {
 .form-1 {
 	padding-top: 6.625rem;	
 	padding-bottom: 5.625rem;	
-	background-color: #153e52;
+	background-color: var(--color-background);
 }
 
 .form-1 .text-container {
@@ -1785,7 +1785,7 @@ a:hover.back-to-top {
 .ex-header {
 	padding-top: 8rem;
 	padding-bottom: 5rem;
-	background-color: #153e52;
+	background-color: var(--color-background);
 	text-align: center;
 }
 

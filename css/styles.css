@@ -1,4 +1,4 @@
-/* Template: Aria - Business HTML Landing Page Template
+/* Template:
    Author: Inovatik
    Created: Jul 2019
    Description: Master CSS file
@@ -36,7 +36,7 @@ Colors:
 - Backgrounds - light gray #fbfbfb
 - Background - dark blue #153e52
 - Backgrounds navbar, footer - dark gray #113448
-- Buttons, bullets, icons - blue gray #0f6691 //green #14bf98
+- Buttons, bullets, icons - blue gray #0f6691
 - Headings text - black #484a46
 - Body text - gray #787976
 - Body text - light gray #dfe5ec
@@ -48,7 +48,9 @@ Colors:
 /******************************/
 :root {
 	--button-bullet-color: #0f6691;
-	--color-background: #153e52
+	--color-background: #153e52;
+	--body-text: #787976;
+	--body-text-light: #dfe5ec;
 }
 
 body,
@@ -58,7 +60,7 @@ html {
 }
 
 body, p {
-	color: #787976; 
+	color: var(--body-text);
 	font: 400 1rem/1.5625rem "Open Sans", sans-serif;
 }
 
@@ -114,12 +116,12 @@ h6 {
 }
 
 a {
-	color: #787976;
+	color: var(--body-text);
 	text-decoration: underline;
 }
 
 a:hover {
-	color: #787976;
+	color: var(--body-text);
 	text-decoration: underline;
 }
 
@@ -129,7 +131,7 @@ a.green {
 
 a.white,
 .white {
-	color: #dfe5ec;
+	color: var(--body-text-light);
 }
 
 .testimonial-text {
@@ -188,17 +190,17 @@ strong {
 .btn-outline-reg {
 	display: inline-block;
 	padding: 1.1875rem 1.875rem 1.1875rem 1.875rem;
-	border: 0.125rem solid #787976;
+	border: 0.125rem solid var(--body-text);
 	border-radius: 0.25rem;
 	background-color: transparent;
-	color: #787976;
+	color: var(--body-text);
 	font: 700 0.75rem/0 "Montserrat", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
 
 .btn-outline-reg:hover {
-	background-color: #787976;
+	background-color: var(--body-text);
 	color: #fff;
 	text-decoration: none;
 }
@@ -206,17 +208,17 @@ strong {
 .btn-outline-lg {
 	display: inline-block;
 	padding: 1.375rem 2.125rem 1.375rem 2.125rem;
-	border: 0.125rem solid #787976;
+	border: 0.125rem solid var(--body-text);
 	border-radius: 0.25rem;
 	background-color: transparent;
-	color: #787976;
+	color: var(--body-text);
 	font: 700 0.75rem/0 "Montserrat", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
 
 .btn-outline-lg:hover {
-	background-color: #787976;
+	background-color: var(--body-text);
 	color: #fff;
 	text-decoration: none;
 }
@@ -224,17 +226,17 @@ strong {
 .btn-outline-sm {
 	display: inline-block;
 	padding: 1rem 1.625rem 0.9375rem 1.625rem;
-	border: 0.125rem solid #787976;
+	border: 0.125rem solid var(--body-text);
 	border-radius: 0.25rem;
 	background-color: transparent;
-	color: #787976;
+	color: var(--body-text);
 	font: 700 0.75rem/0 "Montserrat", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s;
 }
 
 .btn-outline-sm:hover {
-	background-color: #787976;
+	background-color: var(--body-text);
 	color: #fff;
 	text-decoration: none;
 }
@@ -256,7 +258,7 @@ strong {
 	position: absolute;
 	top: 0.8125rem;
 	left: 1.375rem;
-	color: #787976;
+	color: var(--body-text);
 	opacity: 1;
 	font: 400 0.875rem/1.375rem "Open Sans", sans-serif;
 	cursor: text;
@@ -290,7 +292,7 @@ strong {
 	border: 1px solid #dadada;
 	border-radius: 0.25rem;
 	background-color: #fff;
-	color: #787976;
+	color: var(--body-text);
 	font: 400 0.875rem/1.375rem "Open Sans", sans-serif;
 	transition: all 0.2s;
 	-webkit-appearance: none; /* removes inner shadow on form inputs on ios safari */
@@ -344,7 +346,7 @@ select::-ms-expand {
 	border: 1px solid #dadada;
 	border-radius: 0.25rem;
 	background-color: #fff;
-	color: #787976;
+	color: var(--body-text);
 	font: 400 1rem/1.5625rem "Open Sans", sans-serif;
 	transition: all 0.2s;
 }
@@ -410,7 +412,7 @@ input[type='checkbox'] {
 }
 
 .help-block.with-errors .list-unstyled {
-	color: #787976;
+	color: var(--body-text);
 	font-size: 0.75rem;
 	line-height: 1.125rem;
 	text-align: left;
@@ -798,7 +800,7 @@ input[type='checkbox'] {
 
 .header .p-large {
 	margin-bottom: 2rem;
-	color: #dfe5ec;
+	color: var(--body-text-light);
 }
 
 .header .btn-solid-lg {
@@ -1309,7 +1311,7 @@ input[type='checkbox'] {
 }
 
 .form-1 .help-block.with-errors .list-unstyled {
-	color: #dfe5ec;
+	color: var(--body-text-light);
 }
 
 
@@ -1752,7 +1754,7 @@ input[type='checkbox'] {
 
 .copyright p,
 .copyright a {
-	color: #dfe5ec;
+	color: var(--body-text-light);
 	text-decoration: none;
 }
 

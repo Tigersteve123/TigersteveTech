@@ -8,7 +8,8 @@
     "time": "2-4pm",
     "location": "Orange County SWM Administrative Office",
     "registration": true,
-    "link": null
+    "link": null,
+    "imglink": "assets/Event-10-17.PNG"
   },
   {
     "id": 1,
@@ -19,7 +20,8 @@
     "time": "4-5pm",
     "location": "Virtual, Zoom",
     "registration": true,
-    "link": null
+    "link": null,
+    "imglink": "assets/Event-10-17.PNG"
   },
   {
     "id": 2,
@@ -30,7 +32,8 @@
     "time": "8am-4pm",
     "location": "NWS Neighborhood",
     "registration": false,
-    "link": null
+    "link": null,
+    "imglink": "assets/Event-10-17.PNG"
   },
   {
     "id": 3,
@@ -41,7 +44,8 @@
     "time": "8am-4pm",
     "location": "GSS Elementary School",
     "registration": true,
-    "link": null
+    "link": null,
+    "imglink": "assets/Event-10-17.PNG"
   },
   {
     "id": 4,
@@ -52,7 +56,8 @@
     "time": "2-4pm",
     "location": "Chapel Hill Community Center",
     "registration": true,
-    "link": null
+    "link": null,
+    "imglink": "assets/Event-10-17.PNG"
   },
   {
     "id": 5,
@@ -63,7 +68,8 @@
     "time": "2-4pm",
     "location": "Carrboro LMN Garden",
     "registration": false,
-    "link": null
+    "link": null,
+    "imglink": "assets/Event-10-17.PNG"
   },
   {
     "id": 6,
@@ -74,7 +80,8 @@
     "time": null,
     "location": "XYZ Middle School",
     "registration": true,
-    "link": null
+    "link": null,
+    "imglink": "assets/Event-10-17.PNG"
   },
   {
     "id": 7,
@@ -85,7 +92,8 @@
     "time": null,
     "location": "My home",
     "registration": false,
-    "link": null
+    "link": null,
+    "imglink": "assets/Event-10-17.PNG"
   },
   {
     "id": 8,
@@ -96,6 +104,7 @@
     "time": "-1am-32pm",
     "location": "n",
     "registration": true,
-    "link": null
+    "link": null,
+    "imglink": "assets/Event-10-17.PNG"
   }
 ]

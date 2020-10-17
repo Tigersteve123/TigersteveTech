@@ -106,5 +106,17 @@
     "registration": true,
     "link": null,
     "imglink": "https://tigersteve123.github.io/TigersteveTech/hosted_content/gocompost/assets/Post-Growing a Greener Future.PNG"
+  },
+  {
+    "id": 9,
+    "cat": "Holiday",
+    "title": "Holiday",
+    "host": "We sense",
+    "date": "Dec-25-2020",
+    "time": "TBD",
+    "location": "TBD",
+    "registration": true,
+    "link": null,
+    "imglink": "https://raw.githubusercontent.com/Tigersteve123/TigersteveTech/master/hosted_content/gocompost/assets/Holiday%20event.PNG"
   }
 ]
